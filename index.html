@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 best Minecraft adventure mods.</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        width: 100%;
+        background-color: rgb(98, 236, 64);
+        align-items: center;
+    }
+    .logo{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    nav a{
+        color: #000000;
+        font-size: 18px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .banner{
+        width: 100%;
+        height: 600px;
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.beebom.com%2Fwp-content%2Fuploads%2F2021%2F10%2FMinecraft-Best-Mods.jpg&f=1&nofb=1&ipt=205c8093bc2a82c07dd6be2243a418013ee9bfedea19b7ce84fba0ced4dd2a18');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title{
+        width: 500px;
+        height: 150px;
+        text-align: center;
+        margin: 0 auto;
+        color: #ffffff;
+        padding-top: 180px;
+    }
+    .title_butten{
+        width: 100px;
+        background-color: rgb(98, 236, 64);
+        color: #000000;
+        margin: 150px auto;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .mods{
+        width: 100%;
+        height: 1000px;
+        background-color: #000000;
+    }
+    .mods h1{
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+    }
+    .mods_card {
+        background: #1a1a1a;
+        border-radius: 32px;
+        padding: 20px;
+        max-width: 360px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+        transition: transform 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #2e2e2e;
+        margin: auto;
+    }
+    .mods_card img {
+        width: 200px;
+        height: 200px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 20px;
+        background: #2a2a2a;
+        display: block;
+        margin-bottom: 20px;
+        border: 1px solid #333;
+    }
+    .mods_card h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+    /* description */
+    .mods_card p {
+        font-size: 1.5rem;
+        color: #aaaaaa;
+        margin-bottom: 18px;
+        line-height: 1.5;
+        max-width: 280px;
+    }
+     /* price */
+    .mods_card .price {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #f5c542;
+        background: #2a2416;
+        padding: 8px 28px;
+        border-radius: 60px;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        border: 1px solid #3f351f;
+        box-shadow: inset 0 2px 4px rgba(255, 215, 0, 0.05);
+        cursor: pointer;
+    }
+    .mods_card:hover {
+        transform: scale(1.01);
+    }
+    .mods_container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+    .about{
+        width: 100%;
+        height: 800px;
+        background-color: #000000;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .about img{
+        width: 500px;
+    }
+    @media(max-width: 440px){
+        header{
+            flex-direction: column;
+        }
+        .title{
+            width: 90%;
+        }
+        .title h1{
+            font-size: 25px;
+        }
+        .mods{
+            height: 3000px;
+        }
+        .about_2{
+            height: 1200px;
+            gap: 30px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;    
+        }
+    }
+    @media(max-width: 1024px){
+        .mods{
+            height: 1700px;
+        }
+        .about_2{
+            height: 1000px;
+            gap: 50px;
+            text-align: center;
+        }
+        .about{
+            text-align: center;
+        }
+    }
+</style>
+<body>
+    <header>
+        <div class="logo">Best Mincraft mods</div>
+        <nav>
+            <a href="#">Main</a>
+            <a href="#">Mods</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="title">
+            <h1>TOP 3 MODS!</h1>
+            <p>It’s sizzling hot season at our place! Buy any large 16-inch pizza and get a second (smaller size) absolutely free. Perfect for a crowd — or double the pleasure for yourself.</p>
+        </div>
+        <div class="title_butten">
+            More ditails to the mods
+        </div>
+    </section>
+
+    <section class="mods">
+        <h1>TOP 3 MODS</h1>
+        <div class="mods_container">
+            <div class="mods_card">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.uG1dZodawj5CPtooOvT0FQAAAA%3Fr%3D0%26pid%3DApi&f=1&ipt=35f8ca590ad1facd2a391b56616dc17f141cf8dbc8aa22a7884582f2e33c9806&ipo=images">
+                <h1>The Twilight Forest</h1>
+                <p>Adds a whole new dimension filled with dungeons and massive bosses.</p>
+                <div class="price">NeoForge</div>
+            </div>
+            <div class="mods_card">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.5nYRcYsR9XJTyHko52VSKQHaGl%3Fr%3D0%26pid%3DApi&f=1&ipt=72ffb0bcbbe86f230666705039b1c229b1ff605d3e5c8540f90b9cb77e11867b&ipo=images">
+                <h1>Alex’s Mobs</h1>
+                <p>Populates the world with 85+ realistic and fictional animals.</p>
+                <div class="price">NeoForge</div>
+            </div>
+            <div class="mods_card">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.f_3XxMxxxRlK7rvSLK0FLQAAAA%3Fr%3D0%26pid%3DApi&f=1&ipt=5390a1cc4b5d8b4bf30d3306581852287451194c26166902c26706b9438e955b&ipo=images">
+                <h1>Better Combat</h1>
+                <p>Overhauls combat with weapon animations, combos, and realistic reach.    </p>
+                <div class="price">NeoForge</div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="text">
+            <p>
+                These were the top 3 Minecraft adventure mods. For more mods,<a href="https://server.nitrado.net/en-US/news/best-minecraft-mods-in-2026-java-edition">click here</a>. <br>
+            </p>
+        </div>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.rIxqvR06ULjqIZV324UZCgHaE7%3Fr%3D0%26pid%3DApi&f=1&ipt=9a8d09e61250891e693d8edc0c90a6036348293f0d8809558b02572ff0680337&ipo=images" alt="">
+    </section>
+</body>
+</html>
